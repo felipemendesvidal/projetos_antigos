@@ -1,0 +1,200 @@
+
+Pra colocar na index (pode ser do jeito de vcs tbm, essa foi só a forma rápida que a titia fez):
+		<center>
+		  <a href="dicas-atividades.html"><img src="dicas-atividades/minibanner-dicasatividades.jpg" /></a>
+		</center>
+
+		
+		
+Esse aqui coloca na página das dicas e atividades, dentro do <head> : 		
+<link rel="stylesheet" href="dicas-atividades/lightbox.css"> 
+
+
+
+Esse aqui vai no .css, seja main ou style, depende do que o site usa, só copiar e colar desse jeitinho: 
+
+/*---------galeria index---------*/
+
+.galery {
+  margin: 5px;
+}
+
+.picture {
+  cursor: pointer;
+  height: 155px;
+  width: 230px;
+  box-sizing: border-box;
+  margin: 1px 1px;
+  padding: 0px;
+  transition-property: border;
+  transition-duration: .8s;
+  transition-timing-function: ease-in;
+}
+
+.caption{
+  float: left;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.close {
+  float: right;
+  font-size: 2.5em;
+  cursor: pointer;
+  margin: 0;
+}
+
+#pack {
+  position: relative;
+  display: none;
+  text-align: center;
+}
+
+#ligthbox {
+  margin-top: 10%;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  box-shadow: 0px 0px 40px #000;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+
+#onBillboard {
+  background-color: #fff;
+  transition-property: width, height;
+  transition-duration: 0.3s, 0.35s;
+  transition-delay: 0s;
+  transition-timing-function: cubic-bezier(0.56, 0.39, 0.29, 0.52);
+}
+
+#dataclose {
+  position: relative;
+  color: white;
+  margin: 0 auto;
+  padding: 1px 10px;
+}
+
+#prevPic, 
+#nextPic {
+  position: absolute;
+  top: 0%;
+  width: 35%;
+  height: 100%;
+  cursor: pointer;
+}
+
+#prevPic {
+  left: 0;
+  text-align: left;
+  padding-left: 3%;
+}
+
+#nextPic {
+  right: 0;
+  text-align: right;
+  padding-right: 3%;
+}
+
+#prevPic::before, 
+#nextPic::before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+    vertical-align: middle;
+}
+
+#nextPic:hover :first-child, 
+#prevPic:hover :first-child {
+  opacity: 1;
+}
+
+#larr, 
+#rarr {
+  color:#8abf27;
+  font-size: 7em;
+  text-shadow: 0px 0px 5px #000;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 1.2s;
+  transition-timing-function: cubic-bezier(0.56, 0.39, 0.29, 0.52);
+  transition-delay: 0s;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+<!------------------------------------------------------------->
+
+
+
+Esse é o código da galeria mesmo, pra ir na página, ja deixei com os títulos padão que é só colar entre o menu e rodapé (Se não tiver nenhuma frescura de título personalizado e etc.)
+
+<section>
+                                   <div>
+                                               <hr>    
+                                               <div class="galery" align="center">
+                                                           <h2 align="center">Dicas e Atividades</h2><br>
+														   
+														   <p> Lembrançinha de Dia das Mães </p><br>
+														   <img class="picture" src="dicas-atividades/caixinha-maes.jpg" alt="Dicas e Atividades">
+														   
+														   <br><p> Dicas de Brincadeiras </p><br>
+														   
+                                                           <img class="picture" src="dicas-atividades/dica-brincadeira1.jpg" alt="Dicas e Atividades">
+                                                           <img class="picture" src="dicas-atividades/dica-brincadeira2.jpg" alt="Dicas e Atividades">
+                                                           <img class="picture" src="dicas-atividades/dica-brincadeira3.jpg" alt="Dicas e Atividades">
+																		   
+														   <br><p> Dicas de Filmes </p><br>
+														   	   
+                                                           <img class="picture" src="dicas-atividades/dica-filme1.jpg" alt="Dicas e Atividades">
+                                                           <img class="picture" src="dicas-atividades/dica-filme2-ingles.jpg" alt="Dicas e Atividades">
+                                                           <img class="picture" src="dicas-atividades/dica-filme3-motivadores.jpg" alt="Dicas e Atividades">
+														   					   
+														   <br><p> DIY </p><br>
+														   
+                                                           <img class="picture" src="dicas-atividades/diy-massinha.jpg" alt="Dicas e Atividades">
+                                                           <img class="picture" src="dicas-atividades/diy-monstro-bexiga.jpg" alt="Dicas e Atividades">
+                                                           <img class="picture" src="dicas-atividades/diy-origami.jpg" alt="Dicas e Atividades">
+                                                           <img class="picture" src="dicas-atividades/diy-pinguim-pet.jpg" alt="Dicas e Atividades">
+                                                           <img class="picture" src="dicas-atividades/diy-slime.jpg" alt="Dicas e Atividades">
+                                                           <img class="picture" src="dicas-atividades/diy-tinta-farinha.jpg" alt="Dicas e Atividades">
+														   					   
+														   <br><p> Receitas </p><br>
+														   
+														   <img class="picture" src="dicas-atividades/receita1-bolo.jpg" alt="Dicas e Atividades">
+                                                           <img class="picture" src="dicas-atividades/receita2-panqueca-colorida.jpg" alt="Dicas e Atividades">
+														   <img class="picture" src="dicas-atividades/receita3-bala-gelatina.jpg" alt="Dicas e Atividades">
+														   					   
+														   <br><p> Ler para Transformar </p><br>
+														   
+                                                           <img class="picture" src="dicas-atividades/ler-para-transformar1.jpg" alt="Dicas e Atividades">
+                                                           <img class="picture" src="dicas-atividades/ler-para-transformar2.jpg" alt="Dicas e Atividades">
+                                                           <img class="picture" src="dicas-atividades/ler-para-transformar-livros-adolescentes3.jpg" alt="Dicas e Atividades">
+                                                           					   
+														   <br><p> Outros </p><br>
+														   
+														   <img class="picture" src="dicas-atividades/aplicativos-educativos.jpg" alt="Dicas e Atividades">
+                                                           <img class="picture" src="dicas-atividades/contacao-de-historias-instagram.jpg" alt="Dicas e Atividades">
+														   <img class="picture" src="dicas-atividades/site-educativo.jpg" alt="Dicas e Atividades">
+                                               </div>
+                                               <hr>                
+                                               <div id="bg"></div> 
+                                               <div id="pack">
+                                                           <div id="ligthbox">
+                                                                       <div id="billboard"><img id="onBillboard" src alt="photo!!!"></div>
+                                                                       <div id="prevPic"><p id="larr">‹</p></div>
+                                                                       <div id="nextPic"><p id="rarr">›</p></div>
+                                                           </div> <!--id="ligthbox" -->
+                                                           <div id="dataclose">
+                                                                       <p class="caption">Galeria # de #.</p>
+                                                                       <p class="close">×</p>
+                                                           </div>
+                                               </div> 
+
+                                   </div>
+                        </section>
+
+
+E esse script vcs colam na página das dicas e atividades, depois do footer junto com os outros scripts:
+		<script src="dicas-atividades/galeria-script-index.js"></script>

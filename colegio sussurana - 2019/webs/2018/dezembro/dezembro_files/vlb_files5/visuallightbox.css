@@ -1,0 +1,273 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,latin-ext,cyrillic);
+
+#vlb5overlay{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:190;
+	width:100%;
+	height:auto;
+	background-color:#999999;
+}
+
+#vlb5lightbox{
+	position:absolute;
+	top:20px;
+	left:0;
+	width:100%;
+	z-index:200;
+	text-align:center;
+	color:#000000;
+	line-height:0;
+	padding-top: 20px;
+}
+#vlb5lightbox td{
+	vertical-align:top;
+}
+#vlb5lightbox a, #vlb5lightbox a:hover {
+	border-bottom:none;
+	color:#000000;
+	text-decoration:underline;
+}
+
+#vlb5lightbox a img{ border:none; }
+
+#vlb5outerImageContainer{
+	width:auto;
+	height:auto; /* without this line error in IE8 detected */
+	margin:0 auto;
+	position:relative;
+}
+
+#vlb5lightboxImage{
+	width:100%;
+	height:100%;
+}
+
+#vlb5imageContainerMain{
+	margin:0 auto;
+	overflow:visible;
+	position:relative;
+	font-size:0;/* ie fix - big info bar*/
+}
+
+#vlb5imageContainer{
+	width:150px;
+	height:30px;
+	margin:0 auto;
+	overflow:hidden;
+	background-color:#fff;
+	position:relative;
+	font-size:0;/* ie fix - big info bar*/
+}
+
+#vlb5loading{
+	position:absolute;
+	top:40%;
+	left:0%;
+	height:25%;
+	width:100%;
+	text-align:center;
+	font-size:10px;
+	z-index:1;
+}
+#vlb5loadingLink {
+	display:block;
+	margin:0 auto;
+	padding:0;
+	width:32px;
+	height:32px;
+	background:url(loading.gif) center center no-repeat;
+	text-indent:-9999px;
+}
+#vlb5hoverNav{
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	z-index:10;
+}
+#vlb5imageContainer>#hoverNav{ left:0;}
+#vlb5prevLinkImg{
+	top:43%;
+	height: 40px;
+	width: 40px;
+	position:absolute;
+	z-index:20;
+	outline-style:none;
+	display:block;
+	text-indent:-9999px;
+	background-position: 0 0;
+	opacity:0.8;
+	}
+#vlb5nextLinkImg{
+	top:43%;
+	height: 40px;
+	width: 40px;
+	position:absolute;
+	z-index:20;
+	outline-style:none;
+	display:block;
+	text-indent:-9999px;
+	background-position: 100% 0;
+	background:none;
+	opacity:0.8;
+	}	
+* html #vlb5prevLinkImg,* html #vlb5nextLinkImg{
+	background-image:url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */
+}
+#vlb5prevLinkImg { left: 3px; }
+#vlb5nextLinkImg { right: 3px; }
+#vlb5prevLinkImg:hover, 
+#vlb5prevLinkImg.hover, 
+#vlb5prevLinkImg:visited:hover { 
+    opacity:1; 
+}
+#vlb5nextLinkImg:hover, 
+#vlb5nextLinkImg.hover, 
+#vlb5nextLinkImg:visited:hover { 
+	opacity:1; 
+} 
+#vlb5imageContainerMain:hover #vlb5prevLinkImg{
+	background-image:url(arrows.png);
+    background-position: 0 0;
+}
+#vlb5imageContainerMain:hover #vlb5nextLinkImg{
+	background-image:url(arrows.png);
+	background-position: 100% 0; 
+}
+* html #vlb5prevLinkImg{
+	background-image:url(arrows.png);
+}
+* html #vlb5nextLinkImg{
+	background-image:url(arrows.png);
+} 
+
+#vlb5imageDataContainer{
+	width: auto;
+	position: absolute;
+	z-index:21;
+	bottom: 20px;	
+	left: 5px;	
+}
+
+#vlb5imageData{
+	font-family: Open Sans Condensed,Arial,Helvetica,sans-serif;
+	font-size: 20px;
+    line-height: 22px; 	
+	color: #000000;
+	background-color: #FFFFFF;
+	margin-right: 15px;
+	overflow:visible;
+	position: relative;
+	z-index:21;
+	text-align:center;
+}
+#vlb5imageDetails{ width:100%; padding: 0;}
+#vlb5caption{ display:block;text-align:left; padding: 12px;}
+#vlb5numberDisplay{ display:none;text-align:right;}
+#vlb5detailsNav{display:none;}
+#vlb5prevLinkDetails, #vlb5nextLinkDetails{display:none;}
+
+#vlb5imageDataContainer{
+    width: auto;
+    position: absolute;
+    z-index:21;
+    bottom: 20px;    
+    left: 5px;    
+}
+
+#vlb5close{
+	position:relative;
+	width:100%;
+	height:0;
+	z-index:21;
+}
+#vlb5closeLink {
+	position:absolute;
+	top:5px;
+	right:5px;
+	display:block;
+	outline-style:none;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	width:40px;
+	height:40px;
+	background:url(close.png) no-repeat;	
+	_background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='dezembro_files/vlb_files5/close.png', sizingMethod='scale');
+	opacity:0.8;
+}
+
+#vlb5closeLink:hover {
+	opacity:1;	
+}  
+
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden;}
+* html>body .clearfix {display:inline-block; width:100%;}
+
+* html .clearfix {
+	/* Hides from IE-mac \*/
+	height:1%;
+	/* End hide from IE-mac */
+}	
+
+#vlb5outerImageFrame{
+	border:5px solid red;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
+#vlb5outerImageContainer{
+	overflow:visible;
+	margin-bottom: 5px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);	
+    -moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4); 
+}
+#vlb5outerImageContainer td{
+	text-align:center;
+	padding:0;
+}
+
+#vlb5lightboxFrameBody{
+	background-color:transparent;
+}
+.vlb{display:none;}
+#vlb5outerImageContainer td, #vlb5outerImageContainer tr{
+	font-size:0;
+	border:0 none;
+}
+
+#vlb5outerImageContainer td.tl, #vlb5outerImageContainer td.br{
+	height:5px;
+	width:5px;
+}
+
+#vlb5outerImageContainer td.tl{
+	background-color: #FFFFFF;
+}
+#vlb5outerImageContainer td.tc{
+	background-color: #FFFFFF;
+}
+#vlb5outerImageContainer td.tr{
+	background-color: #FFFFFF;
+}
+#vlb5outerImageContainer td.ml{
+	background-color: #FFFFFF;
+}
+#vlb5outerImageContainer td.mr{
+	background-color: #FFFFFF;
+}
+#vlb5outerImageContainer td.bl{
+	background-color: #FFFFFF;
+}
+#vlb5outerImageContainer td.bc{
+	background-color: #FFFFFF;
+}
+#vlb5outerImageContainer td.br{
+	background-color: #FFFFFF;
+} 
