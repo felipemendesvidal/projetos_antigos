@@ -1,0 +1,1567 @@
+# Loco Gettext template
+msgid ""
+msgstr ""
+"Project-Id-Version: WP AMP - Accelerated Mobile Pages for WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-30 20:57+0300\n"
+"PO-Revision-Date: 2018-03-09 14:23+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Revision-Date: Thu Aug 11 2016 14:27:32 GMT+0300 (FLE Daylight Time)\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: en_US\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: ../includes/class-amphtml-options.php:48
+msgid "WP AMP Endpoint"
+msgstr ""
+
+#: ../includes/class-amphtml-options.php:62
+#: ../includes/tabs/class-amphtml-tab-analytics.php:122
+#: ../includes/tabs/class-amphtml-tab-general.php:145
+msgid "Insert a valid endpoint"
+msgstr "Введите валидный endpoint"
+
+#: ../includes/class-amphtml-options.php:92
+msgid "View AMP Version"
+msgstr "Перейти на AMP версию"
+
+#: ../includes/class-amphtml-options.php:107
+msgid "Visit AMP Site"
+msgstr "Перейти на AMP"
+
+#: ../includes/class-amphtml-options.php:173
+msgid "AMP Menu"
+msgstr "AMP Меню"
+
+#: ../includes/class-amphtml-options.php:211
+msgid "WP AMP Settings"
+msgstr "Настройки WP AMP"
+
+#: ../includes/class-amphtml-options.php:374
+msgid "WP AMP featured Image"
+msgstr "Миниатюра AMP"
+
+#: ../includes/class-amphtml-options.php:408
+msgid "Remove featured image"
+msgstr "Удалить миниатюру"
+
+#: ../includes/class-amphtml-options.php:414
+msgid "Set featured Image"
+msgstr "Установить миниатюру"
+
+#: ../includes/class-amphtml-options.php:414
+msgid "Choose an image"
+msgstr "Выбрать изображение"
+
+#: ../includes/class-amphtml-options.php:481
+msgid "Override AMP Content"
+msgstr "Переопределить контент AMP"
+
+#: ../includes/class-amphtml-options.php:490
+#: ../includes/tabs/class-amphtml-tab-appearance.php:54
+#: ../includes/tabs/class-amphtml-tab-templates.php:302
+#: ../includes/tabs/class-amphtml-tab-templates.php:341
+#: ../includes/tabs/class-amphtml-tab-wc.php:65
+msgid "Title"
+msgstr "Заголовок"
+
+#: ../includes/class-amphtml-options.php:497
+msgid "Override AMP Title"
+msgstr "Переопределить заголовок AMP"
+
+#: ../includes/class-amphtml-options.php:506
+msgid "Disable AMP version of this page"
+msgstr "Отключить AMP для этой страницы"
+
+#: ../includes/class-amphtml-sanitize.php:243
+msgid "This page contains a form, you can see it "
+msgstr "Эта страница содержит форму, вы можете увидеть её "
+
+#: ../includes/class-amphtml-sanitize.php:243
+#: ../includes/tabs/class-amphtml-tab-status.php:162
+msgid "here"
+msgstr "здесь"
+
+#: ../includes/class-amphtml-shortcode.php:68
+#: ../includes/tabs/class-amphtml-tab-templates.php:298
+msgid "You May Also Like"
+msgstr "Вам также понравится"
+
+#: ../includes/class-amphtml-shortcode.php:81
+msgid "Latest blog posts"
+msgstr "Последние записи"
+
+#: ../includes/class-amphtml-shortcode.php:128
+msgid "Switch to default version"
+msgstr "Переключиться на обычную версию"
+
+#: ../includes/class-amphtml-tab-abstract.php:103
+msgid "ID is required settings option!"
+msgstr "ID - обязательное поле!"
+
+#: ../includes/class-amphtml-tab-abstract.php:163
+#: ../includes/tabs/class-amphtml-tab-appearance.php:391
+#: ../templates/parts/content_404.php:1 ../templates/parts/custom_html.php:1
+#: ../templates/parts/title_404.php:2
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../includes/class-amphtml-tab-abstract.php:253
+#: ../includes/tabs/class-amphtml-tab-appearance.php:562
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: ../includes/class-amphtml-tab.php:26
+msgid "General"
+msgstr ""
+
+#: ../includes/class-amphtml-tab.php:27
+msgid "Analytics"
+msgstr ""
+
+#: ../includes/class-amphtml-tab.php:28
+msgid "Appearance"
+msgstr ""
+
+#: ../includes/class-amphtml-tab.php:29
+msgid "Templates"
+msgstr ""
+
+#: ../includes/class-amphtml-tab.php:30
+msgid "Schema.org"
+msgstr ""
+
+#: ../includes/class-amphtml-tab.php:31
+#: ../includes/tabs/class-amphtml-tab-troubleshooting.php:13
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../includes/class-amphtml-tab.php:32
+#: ../includes/tabs/class-amphtml-tab-status.php:13
+msgid "System Status"
+msgstr ""
+
+#: ../includes/class-amphtml-template.php:309
+msgid "Read more"
+msgstr "Читать далее"
+
+#: ../includes/class-amphtml-template.php:930
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#: ../includes/class-amphtml-template.php:1029
+msgid "Home"
+msgstr "Главная"
+
+#: ../includes/class-amphtml-template.php:1030
+#, php-format
+msgid "Archive by Category \"%s\""
+msgstr "Архивы Категории \"%s\""
+
+#: ../includes/class-amphtml-template.php:1031
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr "Результаты поиска для: %s"
+
+#: ../includes/class-amphtml-template.php:1032
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: ../includes/class-amphtml-template.php:1033
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: ../includes/class-amphtml-template.php:1034
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#: ../includes/class-amphtml-template.php:1035
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: ../includes/class-amphtml-template.php:1036
+#, php-format
+msgid "Comment Page %s"
+msgstr "Страница комментариев %s"
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:28
+#: ../includes/tabs/class-amphtml-tab-wc.php:248
+#: ../modules/class-amphtml-ad.php:138
+msgid "Ad Block #1"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:29
+#: ../includes/tabs/class-amphtml-tab-wc.php:258
+#: ../modules/class-amphtml-ad.php:148
+msgid "Ad Block #2"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:42
+msgid "Type"
+msgstr "Тип"
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:47
+msgid "Ad network"
+msgstr "Рекламная сеть"
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:51
+msgid "Layout"
+msgstr "Макет"
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:65
+msgid "Height"
+msgstr "Высота"
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:71
+msgid "Ad block height (in pixels)"
+msgstr "Высота рекламного блока (в пикселях)"
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:75
+msgid "Width"
+msgstr "Ширина"
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:81
+msgid "Ad block width (in pixels)"
+msgstr "Ширина рекламного блока (в пикселях)"
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:85
+#: ../includes/tabs/class-amphtml-tab-ad.php:104
+msgid "Data Slot"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:91
+msgid "data-slot"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:95
+msgid "AdSense Client"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:100
+msgid "data-ad-client"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:110
+msgid "data-ad-slot"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:114
+msgid "Custom Ad"
+msgstr "Пользовательский код рекламы"
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:120
+msgid ""
+"Put Ad code in accordance with the <a href=\"https://www.ampproject.org/docs/"
+"reference/components/amp-ad\">Reference</a>"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:146
+msgid "Insert a valid ad block width"
+msgstr "Введите валидную ширину рекламного блока"
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:152
+msgid "Insert a valid ad block height"
+msgstr "Введите валидную высоту рекламного блока"
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:162
+msgid "Insert a valid ad adsense data slot"
+msgstr "Введите валидный adsense data slot"
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:171
+msgid "AdSense"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:174
+msgid "Doubleclick"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:177
+msgid "Other"
+msgstr "Другое"
+
+#: ../includes/tabs/class-amphtml-tab-ad.php:180
+msgid "AdSense Auto Ads"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:13
+msgid "Google Analytics Code"
+msgstr "Код Google Analytics"
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:18
+msgid "Setup Google Analytics tracking ID"
+msgstr "Установите Google Analytics tracking ID"
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:22
+msgid "Google Tag Manager ID"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:27
+msgid "Replacing GTM-XXXXXX with your container ID"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:31
+msgid "Yandex Metrika counter ID"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:36
+msgid "Setup Yandex Metrika counter ID"
+msgstr "Установите Yandex Metrika counter ID"
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:40
+msgid "Facebook Pixel ID"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:44
+msgid "Setup Facebook pixel ID"
+msgstr "Установите Facebook pixel ID"
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:48
+msgid "Custom Analytic"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:52
+msgid "Put custom analytics code here"
+msgstr "Введите код пользовательской аналитики здесь"
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:72
+msgid "Insert a valid Google Analytics ID"
+msgstr "Введите валидный Google Analytics ID"
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:87
+msgid "Insert a valid counter ID"
+msgstr "Введите валидный counter ID"
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:98
+#: ../includes/tabs/class-amphtml-tab-general.php:108
+msgid "Insert a valid content width"
+msgstr "Введите валидную ширину контента"
+
+#: ../includes/tabs/class-amphtml-tab-analytics.php:111
+msgid "Insert a valid Pixel ID"
+msgstr "Введите валидный Pixel ID"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:22
+msgid "Colors"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:23
+msgid "Fonts"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:24
+msgid "Header"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:25
+#: ../includes/tabs/class-amphtml-tab-appearance.php:81
+msgid "Footer"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:26
+msgid "Post Meta Data"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:27
+#: ../includes/tabs/class-amphtml-tab-appearance.php:296
+#: ../includes/tabs/class-amphtml-tab-templates.php:276
+#: ../includes/tabs/class-amphtml-tab-templates.php:467
+#: ../includes/tabs/class-amphtml-tab-wc.php:173
+msgid "Social Share Buttons"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:28
+#: ../includes/tabs/class-amphtml-tab-appearance.php:330
+msgid "Extra CSS"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:36
+msgid "Logo"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:45 ../templates/nav.php:70
+#: ../templates/nav.php:82
+msgid "Menu"
+msgstr "Меню"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:63
+msgid "Post Meta"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:72
+msgid "Content"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:95
+msgid "Header Background"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:101
+msgid "Footer Background"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:107
+msgid "Page Background"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:113
+msgid "Sidebar Menu Background"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:119
+msgid "Main Title"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:125
+msgid "Link Text"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:131
+msgid "Main Text"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:137
+msgid "Header Text"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:143
+msgid "Footer Text"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:165
+msgid "Favicon"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:172
+msgid "Header Menu"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:174
+msgid "Show header menu (<a href=\""
+msgstr "Вывести меню в header (<a href=\""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:181
+msgid "Header Menu Type"
+msgstr "Тип меню"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:189
+msgid "Header Menu Button"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:197
+msgid "Logo Type"
+msgstr "Тип логотипа"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:205
+msgid "Logo Text"
+msgstr "Текст логотипа"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:214
+msgid "Logo Icon"
+msgstr "Иконка логотипа"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:226
+msgid "Footer Content"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:231
+msgid ""
+"This is the footer content block for all AMP pages. <br>Leave empty to hide "
+"footer at all. <br>Plain html without inline styles allowed. (<a href="
+"\"https://github.com/ampproject/amphtml/blob/master/spec/amp-tag-addendum."
+"md#html5-tag-whitelist\" target=\"_blank\">HTML5 Tag Whitelist</a>)"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:235
+msgid "Scroll to Top Button"
+msgstr "Кнопка Scroll to Top"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:236
+msgid "Back to top"
+msgstr "Вверх"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:240
+msgid "Leave empty to hide this button."
+msgstr "Оставьте поле пустым, чтобы скрыть эту кнопку."
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:249
+msgid "Author"
+msgstr "Автор"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:254
+msgid "Show post author"
+msgstr "Показывать автора поста"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:258
+#: ../includes/tabs/class-amphtml-tab-wc.php:146 ../templates/meta-cats.php:13
+msgid "Categories"
+msgstr "Категории"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:263
+msgid "Show post categories"
+msgstr "Показывать категории поста"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:267
+#: ../includes/tabs/class-amphtml-tab-wc.php:155 ../templates/meta-tags.php:13
+msgid "Tags"
+msgstr "Теги"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:272
+msgid "Show post tags"
+msgstr "Показывать теги поста"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:276
+msgid "Date Format"
+msgstr "Формат даты"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:302
+msgid "Facebook"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:303
+msgid "Twitter"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:304
+msgid "LinkedIn"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:305
+msgid "Google Plus"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:306
+msgid "Pinterest"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:307
+msgid "WhatsApp"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:308
+msgid "Email"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:315
+#, fuzzy
+#| msgid "Setup Facebook pixel ID"
+msgid "Facebook Like"
+msgstr "Установите Facebook pixel ID"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:320
+#, fuzzy
+#| msgid "Show add to cart button"
+msgid "Show Facebook like button"
+msgstr "Показывать кнопку \"add to cart\""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:329
+msgid "Enter Your CSS Code"
+msgstr "Введите CSS код"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:353
+msgid "Insert a valid color"
+msgstr "Вставьте валидный код цвета"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:428
+msgid "Icon Logo"
+msgstr "Логотип-иконка"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:431
+msgid "Text Logo"
+msgstr "Текстовый логотип"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:434
+msgid "Icon and Text Logo"
+msgstr "Иконка и текстовый логотип"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:437
+msgid "Image Logo"
+msgstr "Логотип-изображение"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:448
+msgid "Site Logo"
+msgstr "Логотип сайта"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:453
+#: ../includes/tabs/class-amphtml-tab-appearance.php:473
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:53
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:76
+msgid "Upload Image"
+msgstr "Загрузить изображение"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:455
+#: ../includes/tabs/class-amphtml-tab-appearance.php:475
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:55
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:78
+msgid "Reset Image"
+msgstr "Сбросить изображение"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:457
+#: ../includes/tabs/class-amphtml-tab-appearance.php:476
+msgid "The image will have full size."
+msgstr "Изображение будет показано в полном размере."
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:458
+msgid "The image will be resized to fit in a 32x32 box (but not cropped)"
+msgstr "Изображение будет сжато до 32x32 px (но не обрезано)"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:468
+msgid "Site Favicon"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:527
+msgid "None"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:536
+#: ../templates/meta-time.php:15
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:536
+msgid "Relative"
+msgstr "Относительная"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:544
+msgid "Default system format"
+msgstr "По умолчанию"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:546
+msgid "F j, Y"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:550
+msgid "Custom:"
+msgstr "Пользовательская:"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:565
+msgid "Default theme settings"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:579
+msgid "Important"
+msgstr "Важно"
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:579
+msgid "Do not use disallowed styles for avoiding AMP validation errors."
+msgstr "Не используйте запрещённые теги для избежания ошибок валидации."
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:580
+msgid "Please see"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-appearance.php:582
+msgid "Supported CSS"
+msgstr "Поддерживаемый CSS"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:13
+msgid "AMP Endpoint"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-general.php:16
+msgid ""
+"This string will be added to the end of URL for all pages with AMP content"
+msgstr "Эта строка будет добавлена к концу адреса всех страниц с AMP контентом"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:20
+msgid "Redirect Mobile Users"
+msgstr "Перенаправлять мобильных пользователей"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:23
+msgid "Redirect all mobile users to AMP version by default"
+msgstr "Перенаправлять мобильных пользователей на AMP по умолчанию"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:27
+msgid "AMP Content Max-Width"
+msgstr "Максимальная ширина контента AMP"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:31
+msgid "Setup maximum width for AMP content (in pixels)"
+msgstr "Установить максимальную ширину контента AMP (в пикселях)"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:35
+msgid "AMP Element Default Height"
+msgstr "Высота по умолчанию"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:39
+msgid ""
+"If element (image, iframe, etc) height value does not exist, will be applied "
+"this one"
+msgstr ""
+"Если отсутствует высота у элемента (картинка, iframe, и т.д.), будет "
+"применено значение по умолчанию"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:43
+msgid "Post Types"
+msgstr "Типы записей"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:50
+msgid "Enable AMP for selected post types"
+msgstr "Включить AMP для выбранных типов записей"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:54
+#: ../includes/tabs/class-amphtml-tab-templates.php:20
+msgid "Archives"
+msgstr "Архивы"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:61
+msgid "Enable AMP for selected archive pages"
+msgstr "Включить AMP для выбранных архивов"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:65
+msgid "Compatibility Mode"
+msgstr "Режим совместимости"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:69
+msgid "Remove third-party the_content hooks for better compatibility"
+msgstr "Удалить сторонние хуки на the_content для лучшей совместимости"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:73
+msgid "Hide Forms"
+msgstr "Спрятать формы"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:77
+msgid "Hide forms in post content for avoiding validation errors"
+msgstr "Спрятать формы в контенте страниц для избежания ошибок валидации"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:81
+msgid "Enable RTL"
+msgstr "Включить RTL"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:85
+msgid "Enable Right-to-Left language support"
+msgstr "Включить поддержку Right-to-Left"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:89
+msgid "Debug Mode"
+msgstr "Режим отладки"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:100
+msgid "Show errors, warnings and notices"
+msgstr "Показывать ошибки"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:121
+msgid "Insert a valid element height"
+msgstr "Введите валидную высоту элемента"
+
+#: ../includes/tabs/class-amphtml-tab-general.php:134
+msgid "Insert a valid pixel ID"
+msgstr "Введите валидный pixel ID"
+
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:12
+msgid "Publisher Logo"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:18
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:69
+msgid "Default Image"
+msgstr "Изображение по умолчанию"
+
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:24
+msgid "Content Type"
+msgstr "Тип записи"
+
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:47
+msgid "Default Logo"
+msgstr "Логотип по умолчанию"
+
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:56
+msgid ""
+"This image is required for Schema.org markup. The logo should fit in a "
+"60x600px rectangle, and either be exactly 60px high or exactly 600px wide."
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:58
+msgid "See full requirements."
+msgstr "Смотрите полные требования."
+
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:79
+msgid ""
+"This image is required for Schema.org markup and will be used if you have "
+"not set up featured image for post/page. Image should be at least 696 pixels "
+"wide."
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-schemaorg.php:81
+msgid "See requirements."
+msgstr "Смотрите требования."
+
+#: ../includes/tabs/class-amphtml-tab-status.php:62
+msgid "Server Environment"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-status.php:67
+msgid "Server Info"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-status.php:71
+msgid "PHP Version"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-status.php:82
+msgid "WP Version"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-status.php:93
+msgid "WooCommerce Version"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-status.php:104
+msgid "ABSPATH"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-status.php:108
+msgid "MySQL Version"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-status.php:112
+msgid "allow_url_fopen"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-status.php:120
+msgid "cURL Version"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-status.php:126
+msgid "N/A"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-status.php:161
+msgid "See WordPress minimum requirements"
+msgstr "Минимальные требования к WordPress"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:16
+msgid "Posts"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:17
+msgid "Pages"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:18
+msgid "Search"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:19
+msgid "Blog Page"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:21
+msgid "404 Page"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:36
+#: ../includes/tabs/class-amphtml-tab-templates.php:169
+#: ../includes/tabs/class-amphtml-tab-templates.php:386
+#: ../includes/tabs/class-amphtml-tab-templates.php:490
+#: ../includes/tabs/class-amphtml-tab-templates.php:659
+#: ../includes/tabs/class-amphtml-tab-wc.php:26
+#: ../includes/tabs/class-amphtml-tab-wc.php:305
+#: ../includes/tabs/class-amphtml-tab-wc.php:415
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:41
+#: ../includes/tabs/class-amphtml-tab-templates.php:175
+#: ../includes/tabs/class-amphtml-tab-templates.php:392
+#: ../includes/tabs/class-amphtml-tab-templates.php:496
+#: ../includes/tabs/class-amphtml-tab-templates.php:665
+#: ../includes/tabs/class-amphtml-tab-wc.php:32
+#: ../includes/tabs/class-amphtml-tab-wc.php:314
+#: ../includes/tabs/class-amphtml-tab-wc.php:424
+msgid "Show breadcrumbs"
+msgstr "Показывать хлебные крошки"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:45
+msgid "404 Page Title"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:46
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:54
+msgid "404 Page Content"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:55
+msgid "Nothing was found at this location."
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:60
+#: ../includes/tabs/class-amphtml-tab-templates.php:245
+#: ../includes/tabs/class-amphtml-tab-templates.php:452
+#: ../includes/tabs/class-amphtml-tab-templates.php:515
+#: ../includes/tabs/class-amphtml-tab-templates.php:605
+#: ../includes/tabs/class-amphtml-tab-templates.php:713
+msgid ""
+"Plain html without inline styles allowed. (<a href=\"https://github.com/"
+"ampproject/amphtml/blob/master/spec/amp-tag-addendum.md#html5-tag-whitelist"
+"\" target=\"_blank\">HTML5 Tag Whitelist</a>)"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:64
+#: ../includes/tabs/class-amphtml-tab-templates.php:180
+#: ../includes/tabs/class-amphtml-tab-templates.php:417
+msgid "Search Form"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:69
+#: ../includes/tabs/class-amphtml-tab-templates.php:185
+#: ../includes/tabs/class-amphtml-tab-templates.php:422
+msgid "Enable search form. Needs SSL certificate for AMP validation."
+msgstr "Включить форму поиска. Необходим сертификат SSL для валидации AMP."
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:190
+#: ../includes/tabs/class-amphtml-tab-templates.php:397
+#: ../includes/tabs/class-amphtml-tab-templates.php:571
+#: ../includes/tabs/class-amphtml-tab-templates.php:670
+#: ../includes/tabs/class-amphtml-tab-wc.php:37
+#: ../includes/tabs/class-amphtml-tab-wc.php:291
+#: ../includes/tabs/class-amphtml-tab-wc.php:441
+msgid "Original Button"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:196
+msgid "Show link to the original version of the post"
+msgstr "Показывать ссылку на оригинальный пост"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:201
+#: ../includes/tabs/class-amphtml-tab-templates.php:408
+#: ../includes/tabs/class-amphtml-tab-templates.php:582
+#: ../includes/tabs/class-amphtml-tab-templates.php:681
+#: ../includes/tabs/class-amphtml-tab-wc.php:48
+#: ../includes/tabs/class-amphtml-tab-wc.php:319
+#: ../includes/tabs/class-amphtml-tab-wc.php:456
+msgid "View Original Version"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:205
+#: ../includes/tabs/class-amphtml-tab-templates.php:225
+#: ../includes/tabs/class-amphtml-tab-templates.php:412
+#: ../includes/tabs/class-amphtml-tab-templates.php:586
+#: ../includes/tabs/class-amphtml-tab-templates.php:685
+#: ../includes/tabs/class-amphtml-tab-wc.php:52
+#: ../includes/tabs/class-amphtml-tab-wc.php:323
+#: ../includes/tabs/class-amphtml-tab-wc.php:460
+msgid "Button title"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:210
+msgid "Comments Button"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:216
+msgid "Show link to the comment form"
+msgstr "Показывать ссылку на форму комментариев"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:221
+#: ../templates/parts/page_comments_btn.php:11
+msgid "Comments"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:230
+msgid "Post Title"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:239
+#: ../includes/tabs/class-amphtml-tab-templates.php:446
+#: ../includes/tabs/class-amphtml-tab-templates.php:509
+#: ../includes/tabs/class-amphtml-tab-templates.php:599
+#: ../includes/tabs/class-amphtml-tab-templates.php:707
+msgid "Custom HTML"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:249
+#: ../includes/tabs/class-amphtml-tab-templates.php:436
+#: ../includes/tabs/class-amphtml-tab-templates.php:529
+#: ../includes/tabs/class-amphtml-tab-templates.php:619
+msgid "Featured Image"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:254
+msgid "Show post thumbnail"
+msgstr "Показывать изображение поста"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:258
+#: ../includes/tabs/class-amphtml-tab-templates.php:538
+#: ../includes/tabs/class-amphtml-tab-templates.php:628
+#: ../includes/tabs/class-amphtml-tab-templates.php:745
+msgid "Post Meta Block"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:263
+#: ../includes/tabs/class-amphtml-tab-templates.php:750
+msgid "Show post author, categories and published time"
+msgstr "Показывать автора, категории и время публикации"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:267
+msgid "Post Content"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:282
+#: ../includes/tabs/class-amphtml-tab-templates.php:473
+#: ../includes/tabs/class-amphtml-tab-wc.php:178
+msgid "Show social share buttons"
+msgstr "Показывать кнопки соц. сетей"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:287
+msgid "Related Posts"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:293
+msgid "Show related posts"
+msgstr "Показывать схожие записи"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:297
+msgid "Related Posts Title"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:306
+msgid "Number of Related Posts"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:311
+#: ../includes/tabs/class-amphtml-tab-templates.php:350
+msgid "Post count"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:315
+#: ../includes/tabs/class-amphtml-tab-templates.php:354
+msgid "Post"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:320
+#: ../includes/tabs/class-amphtml-tab-templates.php:359
+msgid "Show Post Thumbnail"
+msgstr "Показывать изображение поста"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:326
+#: ../includes/tabs/class-amphtml-tab-templates.php:337
+msgid "Recent Posts"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:332
+msgid "Show recent posts"
+msgstr "Показывать недавние записи"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:336
+msgid "Recent Posts Title"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:345
+msgid "Number of Recent Posts"
+msgstr "Количество недавних записей"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:363
+msgid "Post Comments"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:368
+msgid "Show post comments"
+msgstr "Показывать комментарии поста"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:403
+#: ../includes/tabs/class-amphtml-tab-wc.php:301
+#: ../includes/tabs/class-amphtml-tab-wc.php:451
+msgid "Show link to the original version of the page"
+msgstr "Показывать ссылку на оригинальную страницу"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:426
+#: ../includes/tabs/class-amphtml-tab-templates.php:500
+msgid "Page Title"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:442
+msgid "Show page thumbnail"
+msgstr "Показывать изображение страницы"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:457
+msgid "Page Content"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:520
+#: ../includes/tabs/class-amphtml-tab-templates.php:610
+#: ../includes/tabs/class-amphtml-tab-templates.php:718
+#: ../includes/tabs/class-amphtml-tab-wc.php:182
+msgid "Content Block"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:525
+msgid "Search Page Content"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:534
+#: ../includes/tabs/class-amphtml-tab-templates.php:624
+msgid "Show posts thumbnail"
+msgstr "Показывать изображение поста"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:543
+#: ../includes/tabs/class-amphtml-tab-templates.php:633
+msgid "Show posts author, categories and published time"
+msgstr "Показывать автора, категории и время публикации"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:547
+#: ../includes/tabs/class-amphtml-tab-templates.php:637
+msgid "Excerpt Block"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:552
+#: ../includes/tabs/class-amphtml-tab-templates.php:642
+#, fuzzy
+#| msgid "Show recent posts"
+msgid "Show excerpt"
+msgstr "Показывать недавние записи"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:577
+msgid "Show link to the original version of the blog"
+msgstr "Показывать ссылку на оригинальную страницу блога"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:590
+msgid "Blog Page Title"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:591
+msgid "Blog"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:615
+msgid "Blog Page Content"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:676
+msgid "Show link to the original version of the archive"
+msgstr "Показывать ссылку на оригинальную страницу архива"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:689
+msgid "Archive Title"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:698
+#: ../includes/tabs/class-amphtml-tab-wc.php:191
+#: ../includes/tabs/class-amphtml-tab-wc.php:428
+msgid "Description"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:703
+#: ../includes/tabs/class-amphtml-tab-wc.php:436
+msgid "Show description of archive page"
+msgstr "Показывать описание страницы архива"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:727
+msgid "Featured Images"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:732
+msgid "Show posts thumbnails"
+msgstr "Показывать изображение записи"
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:736
+msgid "Featured Images Link"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:741
+msgid "Link featured images to the post"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:754
+msgid "Post Excerpt"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-templates.php:759
+#, fuzzy
+#| msgid "Show post comments"
+msgid "Show post excerpt"
+msgstr "Показывать комментарии поста"
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:11
+msgid "Product Page"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:12
+msgid "Shop Page"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:13
+msgid "Product Archives"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:14
+#: ../includes/tabs/class-amphtml-tab-wc.php:385
+#: ../includes/tabs/class-amphtml-tab-wc.php:521
+msgid "Add to Cart"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:43
+msgid "Show link to the original version of the product"
+msgstr "Показывать ссылку на оригинальную страницу продукта"
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:56
+#: ../includes/tabs/class-amphtml-tab-wc.php:339
+#: ../includes/tabs/class-amphtml-tab-wc.php:476
+msgid "Image"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:61
+msgid "Show product image"
+msgstr "Показывать изображение продукта"
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:74
+#: ../templates/parts/product_sku.php:2
+msgid "SKU"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:79
+msgid "Show product SKU"
+msgstr "Показывать SKU продукта"
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:83
+#: ../includes/tabs/class-amphtml-tab-wc.php:228
+#: ../includes/tabs/class-amphtml-tab-wc.php:348
+#: ../includes/tabs/class-amphtml-tab-wc.php:485
+msgid "Rating"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:88
+#: ../includes/tabs/class-amphtml-tab-wc.php:233
+#: ../includes/tabs/class-amphtml-tab-wc.php:353
+#: ../includes/tabs/class-amphtml-tab-wc.php:490
+msgid "Show product rating"
+msgstr "Показывать рейтинг продукта"
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:92
+#: ../includes/tabs/class-amphtml-tab-wc.php:367
+#: ../includes/tabs/class-amphtml-tab-wc.php:503
+msgid "Add To Cart Block"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:101
+#: ../includes/tabs/class-amphtml-tab-wc.php:237
+#: ../includes/tabs/class-amphtml-tab-wc.php:376
+#: ../includes/tabs/class-amphtml-tab-wc.php:512
+#: ../templates/parts/shop_add_to_cart_block.php:3
+#: ../templates/parts/wc_archives_add_to_cart_block.php:3
+msgid "Price"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:106
+#: ../includes/tabs/class-amphtml-tab-wc.php:242
+msgid "Show product price"
+msgstr "Показывать цену продукта"
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:110
+msgid "Stock Status"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:115
+msgid "Show product stock status"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:119
+msgid "Quantity"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:124
+msgid "Show quantity option. Needs SSL certificate for AMP validation."
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:128
+msgid "Options"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:133
+msgid "Show variable options. Needs SSL certificate for AMP validation."
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:137
+#: ../includes/tabs/class-amphtml-tab-wc.php:536
+msgid "Add To Cart"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:142
+msgid "Show add to cart button"
+msgstr "Показывать кнопку \"add to cart\""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:151
+msgid "Show product categories"
+msgstr "Показывать категории продукта"
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:160
+msgid "Show product tags"
+msgstr "Показывать теги продукта"
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:164
+#: ../includes/tabs/class-amphtml-tab-wc.php:357
+#: ../includes/tabs/class-amphtml-tab-wc.php:494
+msgid "Short Description"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:169
+msgid "Show product short description"
+msgstr "Показывать краткое описание продукта"
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:196
+msgid "Show product description"
+msgstr "Показывать описание продукта"
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:200
+msgid "Attributes"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:205
+msgid "Show product attributes"
+msgstr "Показывать атрибуты продукта"
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:209
+#: ../templates/parts/product_description_block.php:33
+msgid "Reviews"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:214
+msgid "Show product reviews"
+msgstr "Показывать отзывы продукта"
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:218
+#: ../templates/parts/product_related_products_block.php:13
+msgid "Related Products"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:224
+msgid "Show related products"
+msgstr "Показывать схожие продукты"
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:253
+#: ../modules/class-amphtml-ad.php:143
+msgid "Show ad block #1"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:263
+#: ../modules/class-amphtml-ad.php:153
+msgid "Show ad block #2"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:275
+#: ../includes/tabs/class-amphtml-tab-wc.php:399
+msgid "View"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:327
+#: ../includes/tabs/class-amphtml-tab-wc.php:464
+msgid "Link Image"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:335
+#: ../includes/tabs/class-amphtml-tab-wc.php:472
+#, fuzzy
+#| msgid "Show product images"
+msgid "Link product images"
+msgstr "Показывать изображения продукта"
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:344
+#: ../includes/tabs/class-amphtml-tab-wc.php:481
+msgid "Show product images"
+msgstr "Показывать изображения продукта"
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:363
+#: ../includes/tabs/class-amphtml-tab-wc.php:499
+msgid "Show product short descriptions"
+msgstr "Показывать краткое описание продукта"
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:381
+#: ../includes/tabs/class-amphtml-tab-wc.php:517
+msgid "Show product prices"
+msgstr "Показывать цену продукта"
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:390
+#: ../includes/tabs/class-amphtml-tab-wc.php:526
+msgid "Show \"Add to Cart\" button"
+msgstr "Показать кнопку \"Add to Cart\""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:535
+msgid "Add to Cart Text"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:540
+msgid "\"Add to Cart\" button text"
+msgstr "Текст кнопки \"Add to Cart\""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:544
+msgid "Add to Cart Behavior"
+msgstr ""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:548
+msgid "\"Add to Cart\" button click action"
+msgstr "Действие кнопки \"Add to Cart\""
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:561
+msgid "Add to cart and redirect to product page"
+msgstr "Добавить в корзину и перенаправить на страницу продукта"
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:565
+msgid "Add to cart and redirect to cart page"
+msgstr "Добавить в корзину и перенаправить на страницу cart"
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:569
+msgid "Add to cart and redirect to checkout page"
+msgstr "Добавить в корзину и перенаправить на страницу checkout"
+
+#: ../includes/tabs/class-amphtml-tab-wc.php:572
+msgid "Redirect to product page"
+msgstr "Перенаправить на страницу продукта"
+
+#: ../modules/class-amphtml-ad.php:29
+msgid "Ads"
+msgstr ""
+
+#: ../modules/class-amphtml-ad.php:56
+msgid "Add New"
+msgstr "Добавить"
+
+#: ../modules/class-amphtml-ad.php:62
+msgid "Delete Current"
+msgstr "Удалить"
+
+#: ../modules/class-amphtml-wc.php:111
+msgid "WooCommerce"
+msgstr ""
+
+#: ../modules/class-amphtml-wc.php:119
+msgid "Add to Cart Button"
+msgstr ""
+
+#: ../modules/class-amphtml-wc.php:139
+msgid "WooCommerce Content Type"
+msgstr ""
+
+#: ../modules/class-amphtml-wc.php:239 ../modules/class-amphtml-wc.php:384
+msgid "Offer"
+msgstr ""
+
+#: ../templates/add-to-cart/options.php:53
+msgid "Quantity: "
+msgstr ""
+
+#: ../templates/comments.php:19
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../templates/comments.php:22
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: ../templates/comments.php:39
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: ../templates/meta-cats.php:9 ../templates/meta-tags.php:9
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: ../templates/parts/pagination.php:2 ../templates/parts/post_content.php:8
+msgid "Next &raquo;"
+msgstr ""
+
+#: ../templates/parts/pagination.php:3
+msgid "&laquo; Previous"
+msgstr ""
+
+#: ../templates/parts/post_content.php:9
+msgid "&laquo; Prev"
+msgstr ""
+
+#: ../templates/parts/product_add_to_cart_block.php:10
+msgid "Out Of Stock"
+msgstr ""
+
+#: ../templates/parts/product_add_to_cart_block.php:12
+msgid "In Stock"
+msgstr ""
+
+#: ../templates/parts/product_categories.php:7
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: ../templates/parts/product_description_block.php:31
+#, php-format
+msgid "%s review for %s%s%s"
+msgid_plural "%s reviews for %s%s%s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: ../templates/parts/product_description_block.php:48
+msgid "There are no reviews yet."
+msgstr "Ещё нет отзывов."
+
+#: ../templates/parts/product_description_block.php:53
+msgid "Add a review"
+msgstr "Добавить отзыв"
+
+#: ../templates/parts/product_tags.php:7
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: ../templates/parts/search_page_title.php:3
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#: ../templates/parts/search_page_title.php:6
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: ../templates/search-none.php:10
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../templates/search-none.php:12
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../templates/searchform.php:22
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Поиск &hellip;"
+
+#: ../templates/searchform.php:26
+msgctxt "submit button"
+msgid "Search"
+msgstr "Поиск"
