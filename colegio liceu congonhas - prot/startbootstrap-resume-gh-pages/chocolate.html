@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chocolate</title>
+    <style>
+        @charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: "FontAwesome", sans-serif;
+  font-style: normal; }
+
+header h1 {
+  font-family: Montserrat, "sans-serif";
+  font-size: 45px;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 10px;
+  color: #1a6090; }
+  header h1 .header-subtitile {
+    font-size: 0.35em;
+    margin-bottom: 5px;
+    position: relative; }
+    header h1 .header-subtitile:before, header h1 .header-subtitile:after {
+      content: "";
+      position: absolute;
+      width: 25%;
+      height: 2px;
+      top: 50%;
+      margin-top: -1px;
+      background-color: #1a6090; }
+    header h1 .header-subtitile:before {
+      left: -35%; }
+    header h1 .header-subtitile:after {
+      right: -35%; }
+  header h1 .header-title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px #8cc4ea; }
+
+body {
+  background-color: #3598dB;
+  color: #fff; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+input {
+  display: none; }
+
+.chocolate-bar > .chocolate-bar-part {
+  background-color: #9e6c4b;
+  background-image: -owg(linear-gradient(to right, #9e6c4b 0, #7b543b 5px, transparent 5px), linear-gradient(to bottom, #9e6c4b 0, #7b543b 5px, transparent 5px), linear-gradient(to left, #b68666 5px, transparent 5px), linear-gradient(to top, #b68666 5px, transparent 5px));
+  background-image: -webkit(linear-gradient(to right, #9e6c4b 0, #7b543b 5px, transparent 5px), linear-gradient(to bottom, #9e6c4b 0, #7b543b 5px, transparent 5px), linear-gradient(to left, #b68666 5px, transparent 5px), linear-gradient(to top, #b68666 5px, transparent 5px));
+  background-image: -moz(linear-gradient(to right, #9e6c4b 0, #7b543b 5px, transparent 5px), linear-gradient(to bottom, #9e6c4b 0, #7b543b 5px, transparent 5px), linear-gradient(to left, #b68666 5px, transparent 5px), linear-gradient(to top, #b68666 5px, transparent 5px));
+  background-image: -o(linear-gradient(to right, #9e6c4b 0, #7b543b 5px, transparent 5px), linear-gradient(to bottom, #9e6c4b 0, #7b543b 5px, transparent 5px), linear-gradient(to left, #b68666 5px, transparent 5px), linear-gradient(to top, #b68666 5px, transparent 5px));
+  background-image: -webkit-linear-gradient(left, #9e6c4b 0, #7b543b 5px, transparent 5px), -webkit-linear-gradient(top, #9e6c4b 0, #7b543b 5px, transparent 5px), -webkit-linear-gradient(right, #b68666 5px, transparent 5px), -webkit-linear-gradient(bottom, #b68666 5px, transparent 5px);
+  background-image: linear-gradient(to right, #9e6c4b 0, #7b543b 5px, transparent 5px), linear-gradient(to bottom, #9e6c4b 0, #7b543b 5px, transparent 5px), linear-gradient(to left, #b68666 5px, transparent 5px), linear-gradient(to top, #b68666 5px, transparent 5px);
+  background-size: 58px 91.2px; }
+
+.chocolate-bar {
+  position: relative;
+  height: 456px;
+  width: 290px;
+  box-sizing: border-box;
+  margin: 30px auto 0 auto; }
+  .chocolate-bar > .chocolate-bar-part {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 55;
+    border-top-right-radius: 6px; }
+    .chocolate-bar > .chocolate-bar-part:before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      display: block;
+      font-family: Montserrat, "sans-serif";
+      font-size: 30px; }
+    .chocolate-bar > .chocolate-bar-part:nth-child(1) {
+      z-index: 11;
+      border-top-left-radius: 6px;
+      -webkit-clip-path: polygon(0 0, 20% 0, 20% 20%, 0 20%);
+              clip-path: polygon(0 0, 20% 0, 20% 20%, 0 20%); }
+    .chocolate-bar > .chocolate-bar-part:nth-child(2) {
+      z-index: 22;
+      -webkit-clip-path: polygon(20% 0, 60% 0, 60% 20%, 20% 20%);
+              clip-path: polygon(20% 0, 60% 0, 60% 20%, 20% 20%); }
+    .chocolate-bar > .chocolate-bar-part:nth-child(3) {
+      z-index: 33;
+      -webkit-clip-path: polygon(0 20%, 60% 20%, 60% 45%, 0 70%);
+              clip-path: polygon(0 20%, 60% 20%, 60% 45%, 0 70%); }
+    .chocolate-bar > .chocolate-bar-part:nth-child(4) {
+      z-index: 44;
+      -webkit-clip-path: polygon(60% 0, 100% 0, 100% 30%, 60% 45%);
+              clip-path: polygon(60% 0, 100% 0, 100% 30%, 60% 45%); }
+    .chocolate-bar > .chocolate-bar-part:nth-child(5) {
+      z-index: 55;
+      -webkit-clip-path: polygon(0 70%, 100% 28%, 100% 100%, 0 100%);
+              clip-path: polygon(0 70%, 100% 28%, 100% 100%, 0 100%);
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px; }
+@-webkit-keyframes animation-part1 {
+  26.4% {
+    margin-top: -114px;
+    margin-left: -58px;
+    max-height: 100%; }
+  52.8%, 64.4% {
+    margin-top: -114px;
+    margin-left: -203px;
+    max-height: 100%; }
+  72%, 100% {
+    margin-top: -114px;
+    margin-left: -203px;
+    max-height: 0%; } }
+@keyframes animation-part1 {
+  26.4% {
+    margin-top: -114px;
+    margin-left: -58px;
+    max-height: 100%; }
+  52.8%, 64.4% {
+    margin-top: -114px;
+    margin-left: -203px;
+    max-height: 100%; }
+  72%, 100% {
+    margin-top: -114px;
+    margin-left: -203px;
+    max-height: 0%; } }
+@-webkit-keyframes animation-part2 {
+  26.4% {
+    margin-top: -114px;
+    margin-left: -29px; }
+  52.8%, 56% {
+    margin-top: -114px;
+    margin-left: -174px; }
+  64%, 100% {
+    margin-top: 0;
+    margin-left: -58px; } }
+@keyframes animation-part2 {
+  26.4% {
+    margin-top: -114px;
+    margin-left: -29px; }
+  52.8%, 56% {
+    margin-top: -114px;
+    margin-left: -174px; }
+  64%, 100% {
+    margin-top: 0;
+    margin-left: -58px; } }
+@-webkit-keyframes animation-part3 {
+  24% {
+    margin-top: 0;
+    margin-left: 0; }
+  32%, 100% {
+    margin-top: -91.2px;
+    margin-left: 116px;
+    -webkit-clip-path: polygon(0 20%, 60% 20%, 60% 50%, 0 75%);
+            clip-path: polygon(0 20%, 60% 20%, 60% 50%, 0 75%); } }
+@keyframes animation-part3 {
+  24% {
+    margin-top: 0;
+    margin-left: 0; }
+  32%, 100% {
+    margin-top: -91.2px;
+    margin-left: 116px;
+    -webkit-clip-path: polygon(0 20%, 60% 20%, 60% 50%, 0 75%);
+            clip-path: polygon(0 20%, 60% 20%, 60% 50%, 0 75%); } }
+@-webkit-keyframes animation-part4 {
+  8% {
+    margin-top: 0;
+    margin-left: 0; }
+  26.4% {
+    margin-top: -228px;
+    margin-left: 0; }
+  53% {
+    margin-top: -228px;
+    margin-left: -174px; }
+  64%, 100% {
+    margin-top: 91.2px;
+    margin-left: -174px;
+    -webkit-clip-path: polygon(60% 0, 100% 0, 100% 35%, 60% 50%);
+            clip-path: polygon(60% 0, 100% 0, 100% 35%, 60% 50%); } }
+@keyframes animation-part4 {
+  8% {
+    margin-top: 0;
+    margin-left: 0; }
+  26.4% {
+    margin-top: -228px;
+    margin-left: 0; }
+  53% {
+    margin-top: -228px;
+    margin-left: -174px; }
+  64%, 100% {
+    margin-top: 91.2px;
+    margin-left: -174px;
+    -webkit-clip-path: polygon(60% 0, 100% 0, 100% 35%, 60% 50%);
+            clip-path: polygon(60% 0, 100% 0, 100% 35%, 60% 50%); } }
+@-webkit-keyframes animation-background-position-trick {
+  0%, 62% {
+    background-position: 0 0; }
+  72%, 100% {
+    background-position: 290px 0; } }
+@keyframes animation-background-position-trick {
+  0%, 62% {
+    background-position: 0 0; }
+  72%, 100% {
+    background-position: 290px 0; } }
+.restart:checked + .chocolate-bar .chocolate-bar-part:nth-child(1),
+.restart:not(:checked) + .chocolate-bar .chocolate-bar-part:nth-child(1) {
+  -webkit-animation: animation-part1 11s infinite;
+  animation: animation-part1 11s infinite; }
+.restart:checked + .chocolate-bar .chocolate-bar-part:nth-child(2),
+.restart:not(:checked) + .chocolate-bar .chocolate-bar-part:nth-child(2) {
+  -webkit-animation: animation-part2 11s infinite;
+  animation: animation-part2 11s infinite; }
+.restart:checked + .chocolate-bar .chocolate-bar-part:nth-child(3),
+.restart:not(:checked) + .chocolate-bar .chocolate-bar-part:nth-child(3) {
+  -webkit-animation: animation-part3 11s infinite;
+  animation: animation-part3 11s infinite; }
+.restart:checked + .chocolate-bar .chocolate-bar-part:nth-child(4),
+.restart:not(:checked) + .chocolate-bar .chocolate-bar-part:nth-child(4) {
+  -webkit-animation: animation-part4 11s infinite;
+  animation: animation-part4 11s infinite; }
+
+footer {
+  margin-top: 20px;
+  text-align: center; }
+  footer .actions-panel-target {
+    padding: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    vertical-align: middle;
+    cursor: pointer;
+    font-family: Montserrat, "sans-serif";
+    font-weight: bolder; }
+    footer .actions-panel-target.actions-panel-target-trick {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+      opacity: 0.5; }
+    footer .actions-panel-target.actions-panel-target-share {
+      -webkit-animation: animation-show-share 2s;
+      animation: animation-show-share 2s;
+      -webkit-animation-delay: 11s;
+      animation-delay: 11s; }
+    footer .actions-panel-target .actions-panel-icon {
+      vertical-align: middle;
+      font-style: normal; }
+      footer .actions-panel-target .actions-panel-icon.actions-panel-icon-start:before {
+        content: ""; }
+      footer .actions-panel-target .actions-panel-icon.actions-panel-icon-trick:before {
+        content: ""; }
+      footer .actions-panel-target .actions-panel-icon.actions-panel-icon-share:before {
+        content: ""; }
+    footer .actions-panel-target .actions-panel-text {
+      margin: 0 10px;
+      vertical-align: middle;
+      font-size: 18px;
+      display: inline; }
+      footer .actions-panel-target .actions-panel-text.actions-panel-text-start:after {
+        content: "Pause"; }
+      footer .actions-panel-target .actions-panel-text.actions-panel-text-trick:after {
+        content: "Show me the trick"; }
+      footer .actions-panel-target .actions-panel-text.actions-panel-text-share:after {
+        content: "Share on twitter."; }
+    footer .actions-panel-target:hover {
+      border-bottom: 1px solid #fff; }
+    footer .actions-panel-target.actions-panel-target-disabled {
+      color: #217dbc;
+      border-color: #217dbc; }
+
+.restart:checked ~ .chocolate-bar:after {
+  background-image: -owg(linear-gradient(to right, #3598dB 0, #3598dB 0));
+  background-image: -webkit(linear-gradient(to right, #3598dB 0, #3598dB 0));
+  background-image: -moz(linear-gradient(to right, #3598dB 0, #3598dB 0));
+  background-image: -o(linear-gradient(to right, #3598dB 0, #3598dB 0));
+  background-image: -webkit-linear-gradient(left, #3598dB 0, #3598dB 0);
+  background-image: linear-gradient(to right, #3598dB 0, #3598dB 0);
+  -webkit-animation: animation-background-position-trick 11s infinite;
+  animation: animation-background-position-trick 11s infinite;
+  -webkit-animation-play-state: running;
+  animation-play-state: running; }
+.restart:checked ~ .chocolate-bar .chocolate-bar-part {
+  -webkit-animation-play-state: running;
+  animation-play-state: running; }
+
+.restart:not(:checked) ~ .chocolate-bar:after {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused; }
+.restart:not(:checked) ~ .chocolate-bar .chocolate-bar-part:nth-child(1n+0) {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused; }
+.restart:not(:checked) ~ .chocolate-bar + footer .actions-panel .actions-panel-target .actions-panel-icon.actions-panel-icon-start:before {
+  content: ""; }
+.restart:not(:checked) ~ .chocolate-bar + footer .actions-panel .actions-panel-target .actions-panel-text.actions-panel-text-start:after {
+  content: "Animate"; }
+
+.trick:checked ~ footer .actions-panel-target-trick {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1; }
+.trick:checked ~ .chocolate-bar:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  -webkit-clip-path: polygon(0 65%, 100% 23%, 100% 28%, 0 70%);
+          clip-path: polygon(0 65%, 100% 23%, 100% 28%, 0 70%);
+  z-index: 66;
+  position: relative;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-color: #3598dB; }
+.trick:checked ~ .chocolate-bar .chocolate-bar-part:nth-child(1):before {
+  background-color: rgba(231, 76, 60, 0.5);
+  content: "A";
+  line-height: 91.2px;
+  text-indent: 17px; }
+.trick:checked ~ .chocolate-bar .chocolate-bar-part:nth-child(2):before {
+  background-color: rgba(230, 126, 34, 0.5);
+  content: "B";
+  line-height: 91.2px;
+  text-indent: 106px; }
+.trick:checked ~ .chocolate-bar .chocolate-bar-part:nth-child(3):before {
+  background-color: rgba(142, 68, 173, 0.5);
+  content: "C";
+  line-height: 349.8px;
+  text-indent: 77px;
+  -webkit-clip-path: polygon(0 20%, 60% 20%, 60% 45%, 0 70%);
+          clip-path: polygon(0 20%, 60% 20%, 60% 45%, 0 70%); }
+.trick:checked ~ .chocolate-bar .chocolate-bar-part:nth-child(4):before {
+  background-color: rgba(46, 204, 113, 0.5);
+  content: "D";
+  line-height: 182.4px;
+  text-indent: 222px;
+  -webkit-clip-path: polygon(60% 0, 100% 0, 100% 30%, 60% 45%);
+          clip-path: polygon(60% 0, 100% 0, 100% 30%, 60% 45%); }
+    </style>
+</head>
+<body>
+    header
+  h1   
+    span.header-subtitile PURE CSS
+    p.header-title Infinite chocolate bar  
+input.trick(id='trick', type="checkbox")
+input.restart(id="restart", type="checkbox")
+.chocolate-bar#chocolate-bar
+  each part, index in [1, 2, 3, 4, 5]
+    .chocolate-bar-part
+footer
+  .actions-panel
+    label.actions-panel-target(for='restart', title="Start animation.")
+      i.actions-panel-icon.actions-panel-icon-start
+      span.actions-panel-text.actions-panel-text-start
+    label.actions-panel-target.actions-panel-target-trick(for='trick', title="Show me the trick.")
+      i.actions-panel-icon.actions-panel-icon-trick
+      span.actions-panel-text.actions-panel-text-trick
+    p      
+      a.actions-panel-target.actions-panel-target-share(href='https://twitter.com/intent/tweet?text=Discover how the infinite chocolate bar trick works on @codepen -  https://codepen.io/teles/full/RNdqGj', title="Share this pen with your friends.", target="_blank")
+        i.actions-panel-icon.actions-panel-icon-share
+        span.actions-panel-text.actions-panel-text-share
+    
+</body>
+</html>

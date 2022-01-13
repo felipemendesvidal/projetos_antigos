@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*body{
+  height: auto;
+  width: 100%;
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  height: 50px;
+  width: 100%;
+  background: #003780;
+  display: flex;
+  align-items: center;
+}
+
+header h2{
+  color: white;
+  margin: 0 1rem;
+}*/
+
+.galeria{
+  height: auto;
+  min-height: 500px;
+  width: 100%;
+  display: block;
+}
+
+.grid {
+  margin: 0 auto;
+}
+
+.grid-sizer, .grid .item {
+	width: 33%;
+	display: block;
+	float: left;
+  padding: 8px;
+}
+
+/* Estilos Parallax */
+
+.grid .item{
+    opacity: 0;
+    transform: translateX(2rem);
+    transition: all 0.5s linear;
+}
+
+.grid .item.show-items{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Fin Parallax*/
+
+.grid .item a,.grid .item img {
+	max-width: 100%;
+	display: block;
+	border: none;
+	outline: none;
+}
+
+.pswp__caption__center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*footer{
+  height: 40px;
+  width: 100%;
+  background: #2C3A49;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p{
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+*/
+@media screen and (max-width: 767.99px){
+
+  .grid-sizer, .grid .item {
+      width: 49%;
+  }
+
+}
+
+@media screen and (max-width:575.99px){
+
+  .grid-sizer, .grid .item {
+    width: 97%;
+    margin: 10px 5px;
+    padding: 0;
+  }
+
+  .grid .item a, .grid .item img{
+    margin: 0 auto;
+  }
+
+}

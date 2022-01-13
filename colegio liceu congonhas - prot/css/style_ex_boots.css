@@ -1,0 +1,11 @@
+.display-flex-colum-center{display: flex; justify-content: center; align-items: center; flex-direction: column;}
+.display-flex-center-sa{display: flex; justify-content: space-around; align-items: center;}
+
+.red{color: red;}
+.config-header{height: 100%; }
+body{margin-top: 40px;padding-bottom: 0!important;}
+.shadow{box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.452);}
+.radius{border-radius: 5px;}
+.config-video{width: 50%;}
+.img{width: 500px;height: 500px;}
+.config-new{ margin:0 auto; padding: 2em 0;}
